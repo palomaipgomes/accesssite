@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\Crescer;
+namespace App\Http\Controllers\Creser;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;

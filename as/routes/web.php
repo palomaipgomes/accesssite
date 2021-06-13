@@ -67,6 +67,16 @@ Route::get('/cbomsamaritano/transparencia',['as' => 'cbomsamaritano.transparenci
 Route::get('/cbomsamaritano/doacao',['as' => 'cbomsamaritano.doacao', 'uses' => 'Cbomsamaritano\DoacaoController@index']);
 Route::get('/cbomsamaritano/parceiros',['as' => 'cbomsamaritano.parceiros', 'uses' => 'Cbomsamaritano\ParceiroController@index']);
 
+//Rotas creser
+Route::get('/creser',['as' => 'creser.home', 'uses' => 'Creser\HomeController@index']);
+Route::get('/creser/quemsomos',['as' => 'creser.quemsomos', 'uses' => 'Creser\QuemsomosController@index']);
+Route::get('/creser/servicos',['as' => 'creser.servicos', 'uses' => 'Creser\ServicosController@index']);
+Route::get('/creser/noticias',['as' => 'creser.noticias', 'uses' => 'Creser\NoticiasController@index']);
+Route::get('/creser/equipe',['as' => 'creser.equipe', 'uses' => 'Creser\TimeController@index']);
+Route::get('/creser/transparencia',['as' => 'creser.transparencia', 'uses' => 'Creser\TransparenciaController@index']);
+Route::get('/creser/doacao',['as' => 'creser.doacao', 'uses' => 'Creser\DoacaoController@index']);
+Route::get('/creser/parceiros',['as' => 'creser.parceiros', 'uses' => 'Creser\ParceiroController@index']);
+
 //Rotas do admin
 Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function (){
 
