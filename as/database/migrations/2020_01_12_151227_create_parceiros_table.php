@@ -15,7 +15,7 @@ class CreateParceirosTable extends Migration
     {
         Schema::create('parceiros', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('nome')->unique();
+            $table->string('nome');
             $table->string('logo')->nullable();
             $table->string('link')->nullable();
             $table->string('tipo');
