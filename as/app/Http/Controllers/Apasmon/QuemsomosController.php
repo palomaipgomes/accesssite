@@ -10,7 +10,7 @@ class QuemsomosController extends Controller
 {
     public function index(){
 
-        $somos = Somo::where('user_id', "=", "16")->get();
+        $somos = Somo::where('user_id', "=", "5")->get();
         return view('apasmon.quemsomos', compact('somos'));
 
     }

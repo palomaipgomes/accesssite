@@ -10,7 +10,7 @@ class TransparenciaController extends Controller
 {
     public function index(){
 
-        $transparencias = Transparencia::where('user_id', "=", "1")->get();
+        $transparencias = Transparencia::where('user_id', "=", "4")->get();
         return view('acinpode.transparencia', compact('transparencias'));
     }
 }

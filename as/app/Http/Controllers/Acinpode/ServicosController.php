@@ -10,7 +10,7 @@ class ServicosController extends Controller
 {
     public function index(){
 
-        $oscs = Osc::where('user_id', "=", "1")->get();
+        $oscs = Osc::where('user_id', "=", "4")->get();
         return view('acinpode.servicos', compact('oscs'));
         
     }

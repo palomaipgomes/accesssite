@@ -9,7 +9,7 @@ use App\Doacao;
 class DoacaoController extends Controller
 {
     public function index(){
-        $doacaos = Doacao::where('user_id', "=", "16")->get();
+        $doacaos = Doacao::where('user_id', "=", "5")->get();
         return view('apasmon.doacao', compact('doacaos'));
     }
 }

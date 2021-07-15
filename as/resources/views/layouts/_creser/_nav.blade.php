@@ -1,7 +1,7 @@
 <nav>
-    <div class="nav-wrapper green">
+    <div class="nav-wrapper black">
         <div class = "container">
-        <a href=""> <img src = "{{ asset('uploads/c2ef7ffb0baacd72d63515eb4b35ea81.jpg')}}" width="15%" height="15%" ></a>
+        <a href=""> <img src = "{{ asset('uploads/6c8f7765a727a21cc2bdb431e9f59ff3.png')}}" width="7%" height="7%" ></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
             <li><a href="{{ route('creser.home') }}">Início</a></li>

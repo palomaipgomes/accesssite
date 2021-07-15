@@ -10,7 +10,7 @@ class NoticiasController extends Controller
 {
     public function index(){
 
-        $noticias = Noticia::where('user_id', "=", "16")->get();
+        $noticias = Noticia::where('user_id', "=", "5")->get();
         return view('apasmon.noticias', compact('noticias'));
 
     }

@@ -10,7 +10,7 @@ class NoticiasController extends Controller
 {
     public function index(){
 
-        $noticias = Noticia::where('user_id', "=", "1")->get();
+        $noticias = Noticia::where('user_id', "=", "4")->get();
         return view('acinpode.noticias', compact('noticias'));
 
     }

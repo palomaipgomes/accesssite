@@ -24,7 +24,7 @@
         @yield('content')
     </main>
 
-    <footer class="page-footer green">
+    <footer class="page-footer black">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12 white-text">
@@ -52,9 +52,10 @@
                 </div>
             </div>
         </div>
-        <div class="footer-copyright">
-            <div class="container">
-                Desenvolvido por <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/paloma-gomes-722698105/">Paloma Gomes</a><br>
+        <div class="footer">
+            <div class="container white-text">
+                Desenvolvido pela ex-aluna <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/paloma-gomes-722698105/">Paloma Gomes</a><br>
+                Sob a orientação dos professores Lucinéia Souza Maia e Fernando Bernardes Oliveira<br>
                 Universidade Federal de Ouro Preto - UFOP <br>
                 Instituto de Ciências Exatas e Aplicadas - ICEA <br>
                 Departamento de Engenharia da Computação e Sistemas de Informação - DECSI

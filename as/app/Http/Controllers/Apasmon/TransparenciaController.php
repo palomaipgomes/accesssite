@@ -10,7 +10,7 @@ class TransparenciaController extends Controller
 {
     public function index(){
 
-        $transparencias = Transparencia::where('user_id', "=", "16")->get();
+        $transparencias = Transparencia::where('user_id', "=", "5")->get();
         return view('apasmon.transparencia', compact('transparencias'));
     }
 }
