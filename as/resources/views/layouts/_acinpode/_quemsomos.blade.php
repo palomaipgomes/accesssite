@@ -10,7 +10,7 @@
             <p align="center">{!! $somo->missao !!}</p>
             <p align="center">{!! $somo->visao !!}</p>
             <p align="center">{!! $somo->valores !!}</p>
-            <p align="center"><img src = "{{ asset($somo->organograma) }}" alt="Organograma da empresa"></a></p>
+            <!--<p align="center"><img src = "{{ asset($somo->organograma) }}" alt="Organograma da empresa"></a></p>-->
         </div>
 
     @endforeach

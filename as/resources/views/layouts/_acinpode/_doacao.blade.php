@@ -13,4 +13,5 @@
         </div>
 
     @endforeach
+    <p align="center">Pix: 02.225.066/0001- 05</p>
 </div>
