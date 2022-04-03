@@ -76,6 +76,7 @@ Route::get('/creser/equipe',['as' => 'creser.equipe', 'uses' => 'Creser\TimeCont
 Route::get('/creser/transparencia',['as' => 'creser.transparencia', 'uses' => 'Creser\TransparenciaController@index']);
 Route::get('/creser/doacao',['as' => 'creser.doacao', 'uses' => 'Creser\DoacaoController@index']);
 Route::get('/creser/parceiros',['as' => 'creser.parceiros', 'uses' => 'Creser\ParceiroController@index']);
+Route::get('/creser/artigo',['as' => 'creser.artigo', 'uses' => 'Creser\ArtigoController@index']);
 
 //Rotas do admin
 Route::group(['prefix' => 'admin', 'namespace' => 'Admin'], function (){
