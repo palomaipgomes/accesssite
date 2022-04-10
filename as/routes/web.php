@@ -26,6 +26,7 @@ Route::get('/acinpode/equipe',['as' => 'acinpode.equipe', 'uses' => 'Acinpode\Ti
 Route::get('/acinpode/transparencia',['as' => 'acinpode.transparencia', 'uses' => 'Acinpode\TransparenciaController@index']);
 Route::get('/acinpode/doacao',['as' => 'acinpode.doacao', 'uses' => 'Acinpode\DoacaoController@index']);
 Route::get('/acinpode/parceiros',['as' => 'acinpode.parceiros', 'uses' => 'Acinpode\ParceiroController@index']);
+Route::get('/acinpode/artigo',['as' => 'acinpode.artigo', 'uses' => 'Acinpode\ArtigoController@index']);
 
 //Rotas assume
 Route::get('/assume',['as' => 'assume.home', 'uses' => 'Assume\HomeController@index']);
