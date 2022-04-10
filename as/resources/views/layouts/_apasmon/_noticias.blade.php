@@ -6,24 +6,18 @@
 @if($noticias)
     @foreach($noticias as $noticia)
 
+        <?php
+            $result = substr($noticia->texto, 0, 500);$noticia->texto;
+        ?>
+
         <div class = "card-content">
             <b><h4><p align="center">{!! $noticia->titulo !!}</p></h4></b>
             <p align="center">{!!  date( 'd/m/Y' , strtotime ($noticia->data)) !!}</p>
-            <p>{!! $noticia->texto !!}</p><br><br>
+            <p>{!! $result !!} ...</p><br><br>
+            <p align="center"><a href="artigo?id={{$noticia->id}}">Ver mais</a></p>
         </div>
 
-         <!-- AddToAny BEGIN -->
-         <div class="a2a_kit a2a_kit_size_32 a2a_default_style">
-                  <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
-                  <a class="a2a_button_facebook"></a>
-                  <a class="a2a_button_twitter"></a>
-                  <a class="a2a_button_email"></a>
-                  <a class="a2a_button_whatsapp"></a>
-                  <a class="a2a_button_linkedin"></a>
-                  <a class="a2a_button_pinterest"></a>
-                  </div>
-                  <script async src="https://static.addtoany.com/menu/page.js"></script>
-                  <!-- AddToAny END -->
+        ______________________________________________________________________________________________________________________________________________________________________________________________________
 
     @endforeach
 @endif

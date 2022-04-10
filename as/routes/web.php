@@ -57,6 +57,7 @@ Route::get('/apasmon/equipe',['as' => 'apasmon.equipe', 'uses' => 'Apasmon\TimeC
 Route::get('/apasmon/transparencia',['as' => 'apasmon.transparencia', 'uses' => 'Apasmon\TransparenciaController@index']);
 Route::get('/apasmon/doacao',['as' => 'apasmon.doacao', 'uses' => 'Apasmon\DoacaoController@index']);
 Route::get('/apasmon/parceiros',['as' => 'apasmon.parceiros', 'uses' => 'Apasmon\ParceiroController@index']);
+Route::get('/apasmon/artigo',['as' => 'apasmon.artigo', 'uses' => 'Apasmon\ArtigoController@index']);
 
 //Rotas cbomsamaritano
 Route::get('/cbomsamaritano',['as' => 'cbomsamaritano.home', 'uses' => 'Cbomsamaritano\HomeController@index']);
