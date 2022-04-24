@@ -37,6 +37,7 @@ Route::get('/assume/equipe',['as' => 'assume.equipe', 'uses' => 'Assume\TimeCont
 Route::get('/assume/transparencia',['as' => 'assume.transparencia', 'uses' => 'Assume\TransparenciaController@index']);
 Route::get('/assume/doacao',['as' => 'assume.doacao', 'uses' => 'Assume\DoacaoController@index']);
 Route::get('/assume/parceiros',['as' => 'assume.parceiros', 'uses' => 'Assume\ParceiroController@index']);
+Route::get('/assume/artigo',['as' => 'assume.artigo', 'uses' => 'Assume\ArtigoController@index']);
 
 //Rotas lionsclubejm
 Route::get('/lionsclubejm',['as' => 'lionsclubejm.home', 'uses' => 'Lionsclubejm\HomeController@index']);
